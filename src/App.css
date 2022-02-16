@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+* {
+    font-family: 'Poppins', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+    --black: #1f1f1f;
+    --gray: #2e2e2e;
+    --red: #db391f;
+    --white: #e2e2e2;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+    display: grid;
+    place-items: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header div {
+    display: flex;
+    align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+header img {
+    width: 35px;
+    padding: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header p {
+    font-size: 25px;
+    color: var(--red);
+    letter-spacing: 1px;
+}
+body {
+    background-color: var(--black);
+}
+.app {
+    min-height: 400px;
+    width: 600px;
+    margin: 40px auto;
+    padding: 20px 0;
+}
+#to-do-form input {
+    background-color: var(--gray);
+    border: 0;
+    width: 400px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+    color: var(--white);
+    letter-spacing: 1px;
+}
+#to-do-form input::placeholder {
+    color: rgba(255, 255, 255, 0.534);
+}
+#to-do-form button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: 0;
+    background-color: var(--gray);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--white);
+}
+#to-do-form button:hover {
+    background-color: var(--red);
 }

@@ -1,0 +1,40 @@
+:root {
+    --black: #1f1f1f;
+    --gray: #2e2e2e;
+    --red: #db391f;
+    --white: #e2e2e2;
+}
+.list {
+    color: var(--white);
+    width: 540px;
+    border-bottom: 2px solid var(--gray);
+    margin: 30px auto;
+}
+.list p {
+    padding: 0 15px;
+    letter-spacing: 1px;
+    position: relative;
+}
+.list p span {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.list p input {
+    width: 450px;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: var(--white);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+}
+.heroicons {
+    margin: 0 5px;
+    font-size: 20px;
+}
+.list p span:hover {
+    color: var(--red);
+}
