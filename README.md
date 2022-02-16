@@ -9,7 +9,7 @@ Live link:
 
  - React JS
 
-### Screenshots
+## Screenshot
 
-![TodoList App Screenshot](./src/images/todolist app ss.png "TodoList Logo")
+![TodoList App Screenshot](./src/images/todolist-app-ss.png)
 
